@@ -85,7 +85,7 @@ namespace CircleGraph
             
         }
 
-        public override void Draw(Android.Graphics.Canvas canvas)
+        public override void Draw(Canvas canvas)
         {
             base.Draw(canvas);
             int min = Math.Min(Width, Height)-graphSpecs.strokeWidth;
