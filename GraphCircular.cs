@@ -56,7 +56,6 @@ namespace CircleGraph
             mHandler = new Handler();
             int count = 0;
             steps = graphSpecsSet.animSteps;
-            //maxValue = 100 - maxValue;
             animateView(count);
         }
         void animateView(int count){
@@ -83,18 +82,7 @@ namespace CircleGraph
 
         void Initialize()
         {
-            //Dictionary<Color, float> colorandvalue = new Dictionary<Color, float>();
-            //colorandvalue.Add( Color.Blue,1);
-            //colorandvalue.Add(Color.Red,1);
-            //colorandvalue.Add(Color.Yellow,1);
-            //GraphSpecs specs1 = new GraphSpecs
-            //{
-            //    percentageValuesWithColor = colorandvalue,
-            //    strokeWidth = 15,
-            //    space = 20,
-            //    startAngle = 90
-            //};
-            //graphSpecs = specs1;
+            
         }
 
         public override void Draw(Android.Graphics.Canvas canvas)
